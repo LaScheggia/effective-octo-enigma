@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+} /* web-safe font */
+
+body {
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-size: auto 100%;
+  background-size: cover;
+  padding: 50px;
+}
+
+/* usare colore alpha per trasparenza */
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1300px;
+  height: 800px;
+  border-radius: 2%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 150px;
+  padding-top: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(38, 255, 0);
+}
+
+.box-comandi{
+  background-color: rgb(38, 255, 0);
+  width: 80%;
+  height: 50px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.comandi{
+ margin: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
+
+.monopattini{
+  color: white;
+  padding-top: 20px;
+  padding-left: 130px;
+}
+
+.nome-monopattini, .spunta{
+  display: inline-block;
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: bolder;
+}
+
+.indirizzo, .stato-carica{
+  font-size: 23px;
+}
+
+.arrow{
+  color: white;
+  border-bottom: 10px;
+}
+
+.arrow:after{
+  content: "\27A5";
+}
+
+#rectangle1{
+  width:250px;
+  height:30px;
+  background-color: rgb(209, 191, 56);
+  border-radius: 5px;
+}
+
+#rectangle2{
+  width:500px;
+  height:30px;
+  background:green;
+  border-radius: 5px;
+}
+
+#rectangle3{
+  width:100px;
+  height:30px;
+  background-color: rgb(135, 24, 24);
+  border-radius: 5px;
+}
